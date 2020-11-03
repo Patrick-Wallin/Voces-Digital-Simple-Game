@@ -1,0 +1,74 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --voces-color: #262262;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: var(--blue);
+}
+
+.header {
+    background-color: var(--white);
+    width:100%;    
+}
+
+.title {
+    color: var(--voces-color);
+    display: inline;
+}
+
+.item {
+    padding: 10px;
+    display: list-item;
+    background-color: var(--white);
+    margin: 10px;    
+}
+
+.newItem {
+    padding: 10px;
+    display: list-item;
+    background-color: var(--white);
+    margin: 10px;
+    
+    display: list-item;
+    margin-left: 1.5em;
+    list-style-type: decimal;
+}
+
+.voces-game {
+    background-color: var(--blue);
+    height: 100%;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.draggable.dragging {
+    opacity: .5;
+}
+
+#lists {
+    display: block; float:left; width:30%;
+}
+
+#newLists {
+    display: block; float:left; width:30%;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.answers {
+    margin: 15px;
+    clear: both;
+}

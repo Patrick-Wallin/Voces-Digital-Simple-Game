@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Voces Simple Game</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">            
+            <h1 class="title"><img src="img/VOCESLOGO_DC-logo.webp" style="max-width:200px;display:inline" />Welcome to Voces Simple Game!</h1>    
+        </header>
+        
+        <main class="voces-game">
+            <h2>Please sort the order correctly by dragging one of the items from left to the right.</h2>
+            
+            <div id="lists"></div>
+
+            <div id="newLists"></div>
+
+            <div class="answers">
+                <div>Correct: <span id="correctCount">0</span></div>
+                <div>Incorrect: <span id="incorrectCount">0</span></div>
+                <div>Total: <span id="totalCount">0</span></div>
+            </div>
+
+            <div id="results"></div>
+        </main>
+        <script src="scripts.js"></script>
+    </body>
+</html>
